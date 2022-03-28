@@ -1,0 +1,145 @@
+
+{\large \begin{gather}
+We\ can\ simply\ start\ by\ defining\ the\ vault\ ratio\ mathematically.\ We\ know\ that\  \notag\\
+TCAP\ always\ needs\ to\ be\ over\ collateralized.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+\ Ex.\ If\ the\ vault\ ratio\ is\ 150\%\ then\ we\ can\ say\ that\ the\ TCAP\ borrowed\ can\ be\  \notag\\
+at\ most\ 150\%\ times( or\ more\ simply\ 1.5\ times) \ the\ value\ of\ deposited\ \  \notag\\
+\ \ \ \ collateral.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Value\ of\ Collateral\ =\ \frac{150}{100} \ \times Value\ of\ Tcap\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+150\ here\ is\ divided\ by\ 100\ to\ convert\ the\ percentage\ to\ a\ fraction.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+\begin{aligned}
+Or\ in\ general,\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+\end{aligned} \notag\\
+Value\ of\ Collateral\ =\ \frac{Vault\ Ratio}{100} \ \times \ Value\ of\ Tcap\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \  \notag\\
+\ \ \ We\ can\ rearrange\ the\ terms\ in\ the\ equation\ above\ to\ obtain\ an\ equation\ for\ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+Vault\ Ratio.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{aligned}
+ &  &  &  &  &  &  & 
+\end{aligned} \notag\\
+ \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ Vault\ Ratio\ =\ \frac{Value\ of\ Collateral}{Value\ of\ Tcap} \ \times \ 100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 1)\\
+ \notag\\
+Please\ note\ the\ value\ of\ the\ collateral\ and\ the\ value\ of\ TCAP\ is\ expressed\ \ \ \ \ \ \ \ \  \notag\\
+in\ USD.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+The\ value\ of\ the\ collateral\ can\ be\ expressed\ as\ the\ amount\ deposited\ and\ the\ \ \ \ \ \ \ \  \notag\\
+price\ of\ the\ collateral.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Value\ of\ Collateral\ =\ Amount\ of\ Collateral\ \times \ Price\ of\ Collateral \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ C_{A} C_{P} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 2)\\
+\ \ \ \ \ \ \ \ Where\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ C_{A} \ is\ the\ amount\ of\ collateral\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ C_{P} \ is\ the\ price\ of\ the\ collateral.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Similarly,\ the\ value\ of\ Tcap\ minted\ can\ be\ expressed\ as\ the\ amount\ of\ Tcap\ \ \ \ \ \ \  \notag\\
+minted\ and\ the\ price\ of\ the\ Tcap:\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Value\ of\ Collateral\ =\ Amount\ of\ Tcap\ \times \ Price\ of\ Tcap\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ T_{A} \ T_{P} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 3)\\
+\ \ \ \ \ \ \ \ Where\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ T_{A} \ is\ the\ amount\ of\ Tcap\ minted\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ T_{P} \ is\ the\ price\ of\ the\ collateral.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Substituting\ ( 2) \ and\ ( 3) \ in\ ( 1) \ we\ get,\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\  \notag\\
+Vault\ Ratio\ =\ \frac{C_{A} C_{P}}{T_{A} T_{P}} \ \times 100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ V_{R} \ =\ \frac{C_{A} C_{P}}{T_{A} T_{P}} \ \times 100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 4)\\
+Where\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+V_{R} \ is\ the\ minimum\ vault\ ratio\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+The\ current\ minimum\ vault\ ratio\ is\ 150\%\ for\ Tcap\ vaults.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+As\ the\ market\ prices\ fluctuate\ the\ vault\ ratio\ can\ fall\ down\ below\ the\ minimum\  \notag\\
+\ vault\ ratio.\ In\ this\ case,\ the\ vaults\ are\ susceptible\ to\ liquidation.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+In\ such\ a\ case,\ the\ vault\ owner\ should\ be\ penalized\ for\ maintaining\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+insufficient\ collateral\ and\ this\ fee\ should\ be\ given\ to\ the\ liquidators.This\ \ \ \ \ \ \ \ \ \ \  \notag\\
+incentivizes\ liquidators\ to\ get\ rid\ of\ the\ unbacked\ debt\ accrued\ by\ the\ protocol.\ \ \  \notag\\
+This\ way\ the\ protocol\ successfully\ manages\ its\ liabilities\ without\ the\ need\ of\ \ \ \ \ \  \notag\\
+\ \ \ \ any\ fund\ manager.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Now\ the\ question\ is\ how\ much\ should\ this\ liquidation\ reward\ be.A\ simple\ place\ to \notag\\
+start\ with\ is\ to\ make\ the\ reward\ equal\ to\ the\ debt( Tcap) \ that\ needs\ to\ be\ paid.\ \ \ \ \ \ \ \  \notag\\
+But\ in\ order\ to\ penalize\ the\ vault\ owners\ further\ the\ reward\ should\ be\ greater\ \ \ \ \ \ \  \notag\\
+than\ the\ debt\ that\ needs\ to\ be\ paid.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ In\ this\ case,\ the\ protocol\ chose\ to\ reward\ debt\ +\ a\ percentage\ of\ the\ debt.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+This\ percentage\ is\ called\ the\ liquidation\ penalty\ which\ we\ \ discussed\ briefly\ \ \ \ \ \ \ \ \ \ \  \notag\\
+under\ Tcaps\ mechanism\ section.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\  \notag\\
+This\ can\ be\ summarized\ through\ an\ equation\ as\ follows:\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \  \notag\\
+Liquidation\ Reward=Debt\ to\ be\ paid+Debt\ to\ be\ paid\ \times \ \frac{LiquidationPenalty}{100} \notag\\
+ \notag\\
+\ \ \ The\ Liquidation\ penalty\ needs\ to\ be\ divided\ by\ 100\ to\ convert\ the\ percentage\ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ into\ a\ \ \ \ \ fraction.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ Also,\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+Liquidation\ Reward\ =\ Amount\ of\ Liquidation\ Collateral\ \times \ Collateral\ Price\  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+C_{Rew} \ \times C_{P} \ =\ T_{Liq} \ +\ T_{Liq} \ \times \ \frac{L_{P}}{100} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+C_{Rew} \ \times C_{P} \ =\ \frac{T_{Liq}( 100\ +\ L_{P})}{100} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C_{Rew} \ =\ \frac{T_{Liq}( 100\ +\ L_{P})}{100C_{P}} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 5)\\
+ \notag\\
+Where\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+C_{rew} \ is\ the\ amount\ liquidation\ reward\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+T_{Liq} \ is\ the\ debt\ that\ needs\ to\ be\ paid\ or\ the\ Tcap\ needed\ for\ liquidation \notag\\
+ \notag\\
+\ \ This\ reward\ is\ paid\ out\ from\ the\ vault\ owner's\ \ collateral.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+The\ way\ the\ reward\ is\ chosen\ T_{Liq} \ won't\ be\ as\ simple\ as\ the\ amount\ of\ unbacked\  \notag\\
+debt.T_{Liq} \ will\ be\ more\ than\ the\ unbacked\ debt\ as\ a\ portion\ of\ the\ collateral\ is\ paid \notag\\
+out\ as\ a\ reward\ to\ the\ liquidator.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+\ The\ question\ is\ how\ do\ we\ calculate\ T_{Liq} ?\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+We\ know\ that\ liquidation\ brings\ back\ the\ vault\ ratio\ to\ its\ minimum\ value.\ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ V_{R} \ =\ \frac{Collateral\ Left\ after\ Liquidation}{Tcap\ Left\ After\ Liquidation} \ \times 100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 6)\\
+ \notag\\
+\ Collateral\ Left\ after\ Liquidation=Value\ of\ Collateral-Value\ of\ Reward\ paid \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ C_{A} \ C_{P} \ -\ C_{Rew} \ C_{P} \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ =\ ( C_{A} \ -\ C_{Rew}) \ C_{P} \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ using\ ( 6) \ we\ get, \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \left( C_{A} \ -\ \frac{T_{Liq}( 100\ +\ L_{P})}{100\ C_{P}}\right) C_{P} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 7)\\
+ \notag\\
+Please\ note\ that\ C_{P} \ is\ the\ price\ of\ collateral\ during\ liquidation.\ It\ might\ be\ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ different\ \ from\ the\ price\ at\ which\ Tcap\ was\ minted.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+Tcap\ Left\ After\ Liquidation\ =\ Value\ of\ Vault\ Tcap\ -\ Value\ of\ T_{Liq} \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+=\ T_{A} T_{P} \ -\ T_{Liq} T_{P} \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ ( T_{A} \ -\ T_{Liq}) \ T_{P} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 8)\\
+ \notag\\
+Please\ note\ that\ T_{P} \ is\ the\ price\ of\ Tcap\ during\ liquidation.\ It\ might\ be\ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ different\ from\ the\ price\ at\ which\ Tcap\ was\ minted.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+substituting\ ( 7) \ and\ ( 8) \ in\ ( 6) ,\ we\ get, \notag\\
+ \notag\\
+V_{R} \ =\ \frac{\ \left( C_{A} \ -\ \frac{T_{Liq}( 100\ +\ L_{P})}{100C_{P}}\right) C_{P}}{( T_{A} \ -\ T_{Liq}) \ T_{P}} \ \times 100 \notag\\
+ \notag\\
+The\ above\ equation\ can\ be\ rearranged\ to\ calculate\ the\ value\ of\ T_{Liq} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ T_{Liq} \ =\ \frac{T_{A} T_{P} V_{R} \ -\ 100C_{A} C_{P}}{T_{p}( V_{R} \ -\ L_{P} \ -\ 100)} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 9)\\
+ \notag\\
+substituting\ ( 9) \ in\ ( 5) \ we\ get, \notag\\
+ \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C_{Rew} \ =\ \frac{( T_{A} T_{P} V_{R} \ -\ 100C_{A} C_{P})( L_{P} \ +\ 100)}{100C_{P} T_{p}( V_{R} \ -\ L_{P} \ -\ 100)} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 10)\\
+ \notag\\
+There\ is\ one\ last\ formula\ that\ we\ need\ to\ discuss\ which\ is\ not\ directly\ related\ to\  \notag\\
+any\ of\ the\ formulae\ derived\ above.\ The\ protocol\ charges\ a\ protocol\ maintenance\  \notag\\
+fee\ in\ ETH\ whenever\ Tcap\ is\ burnt\ or\ when\ a\ vault\ is\ liquidated.\ The\ protocol\ \ \ \  \notag\\
+controls\ this\ fee\ through\ a\ parameter\ called\ the\ burn\ fee.\ It\ is\ expressed\ as\ a\ \ \ \ \ \ \  \notag\\
+percentage.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+The\ formula\ for\ the\ fee\ is:\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ETH_{Fee} \ =\ \frac{T_{A} T_{P} B_{F}}{100E_{P}} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ( 11)\\
+Where\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ B_{F} \ is\ the\ burn\ fee\ percentage \notag\\
+\ \ \ \ \ \ \ \ \ \ E_{P} \ is\ the\ price\ of\ ETH\ \ \ \  \notag\\
+If\ you\ notice\ carefully,\ then\ you'll\ realize\ that\ this\ formulae\ is\ not\ too\ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+different\ from\ eq\ ( 4) .\ The\ current\ burn\ fee\ percentage\ of\ the\ protocol\ is\ 1\%.\  \notag\\
+ \notag\\
+We\ have\ thus\ derived\ all\ the\ equations\ needed\ to\ successfully\ run\ the\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+Tcap\ protocol.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \notag\\
+ \notag
+\end{gather}}
+
